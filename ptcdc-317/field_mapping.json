@@ -1,0 +1,685 @@
+{
+    "Audit Log": [
+        {
+            "ui_field": "Id",
+            "internal_field": "id",
+            "required": false
+        },
+        {
+            "ui_field": "CreatedAt",
+            "internal_field": "created_at",
+            "required": false
+        },
+        {
+            "ui_field": "Action",
+            "internal_field": "action",
+            "required": false
+        },
+        {
+            "ui_field": "Result",
+            "internal_field": "result",
+            "required": false
+        },
+        {
+            "ui_field": "AppId",
+            "internal_field": "app_id",
+            "required": false
+        },
+        {
+            "ui_field": "ResourceId",
+            "internal_field": "resource_id",
+            "required": false
+        },
+        {
+            "ui_field": "ResourceType",
+            "internal_field": "resource_type",
+            "required": false
+        },
+        {
+            "ui_field": "UserName",
+            "internal_field": "user_name",
+            "required": false
+        },
+        {
+            "ui_field": "ClientIp",
+            "internal_field": "client_ip",
+            "required": false
+        },
+        {
+            "ui_field": "ResourceDesc",
+            "internal_field": "resource_desc",
+            "required": false
+        },
+        {
+            "ui_field": "Message",
+            "internal_field": "message",
+            "required": false
+        },
+        {
+            "ui_field": "UpdatedAt",
+            "internal_field": "updated_at",
+            "required": false
+        },
+        {
+            "ui_field": "RequestId",
+            "internal_field": "request_id",
+            "required": false
+        },
+        {
+            "ui_field": "EventVersion",
+            "internal_field": "event_version",
+            "required": false
+        },
+        {
+            "ui_field": "EventMetadata",
+            "internal_field": "event_metadata",
+            "required": false
+        },
+        {
+            "ui_field": "SubjectType",
+            "internal_field": "subject_type",
+            "required": false
+        },
+        {
+            "ui_field": "SessionType",
+            "internal_field": "session_type",
+            "required": false
+        },
+        {
+            "ui_field": "SubjectGroups",
+            "internal_field": "subject_groups",
+            "required": false
+        },
+        {
+            "ui_field": "SessionId",
+            "internal_field": "session_id",
+            "required": false
+        },
+        {
+            "ui_field": "HttpURL",
+            "internal_field": "http_url",
+            "required": false
+        },
+        {
+            "ui_field": "HttpMethod",
+            "internal_field": "http_method",
+            "required": false
+        },
+        {
+            "ui_field": "HttpReqBody",
+            "internal_field": "http_req_body",
+            "required": false
+        },
+        {
+            "ui_field": "HttpCode",
+            "internal_field": "http_code",
+            "required": false
+        },
+        {
+            "ui_field": "HttpRespBody",
+            "internal_field": "http_resp_body",
+            "required": false
+        },
+        {
+            "ui_field": "AccountId",
+            "internal_field": "account_id",
+            "required": false
+        }
+    ],
+    "Atlas Notification": [
+        {
+            "ui_field": "Id",
+            "internal_field": "id",
+            "required": false
+        },
+        {
+            "ui_field": "AccountId",
+            "internal_field": "account_id",
+            "required": false
+        },
+        {
+            "ui_field": "ApplicationId",
+            "internal_field": "application_id",
+            "required": false
+        },
+        {
+            "ui_field": "Type",
+            "internal_field": "type",
+            "required": false
+        },
+        {
+            "ui_field": "Subtype",
+            "internal_field": "subtype",
+            "required": false
+        },
+        {
+            "ui_field": "Severity",
+            "internal_field": "severity",
+            "required": false
+        },
+        {
+            "ui_field": "Host",
+            "internal_field": "metadata.host",
+            "required": false
+        },
+        {
+            "ui_field": "Body",
+            "internal_field": "metadata.body",
+            "required": false
+        },
+        {
+            "ui_field": "Insight",
+            "internal_field": "metadata.insight",
+            "required": false
+        },
+        {
+            "ui_field": "Indicator",
+            "internal_field": "metadata.indicator",
+            "required": false
+        },
+        {
+            "ui_field": "Asset",
+            "internal_field": "metadata.asset",
+            "required": false
+        },
+        {
+            "ui_field": "Detection",
+            "internal_field": "metadata.detection",
+            "required": false
+        },
+        {
+            "ui_field": "InsightId",
+            "internal_field": "metadata.insight_id",
+            "required": false
+        },
+        {
+            "ui_field": "Message",
+            "internal_field": "metadata.message",
+            "required": false
+        },
+        {
+            "ui_field": "ShortSubject",
+            "internal_field": "metadata.short_subject",
+            "required": false
+        },
+        {
+            "ui_field": "Subject",
+            "internal_field": "metadata.subject",
+            "required": false
+        },
+        {
+            "ui_field": "OccurredTime",
+            "internal_field": "occurred_time",
+            "required": false
+        },
+        {
+            "ui_field": "GeneratedTime",
+            "internal_field": "generated_time",
+            "required": false
+        },
+        {
+            "ui_field": "Status",
+            "internal_field": "status",
+            "required": false
+        },
+        {
+            "ui_field": "ProductName",
+            "internal_field": "product_name",
+            "required": false
+        }
+    ],
+    "Service Log": [
+        {
+            "ui_field": "Timestamp",
+            "internal_field": "@timestamp",
+            "required": true
+        },
+        {
+            "ui_field": "Log Name",
+            "internal_field": "@log_name",
+            "required": true
+        },
+        {
+            "ui_field": "Pool ID",
+            "internal_field": "pool_id"
+        },
+        {
+            "ui_field": "Service ID",
+            "internal_field": "service_id"
+        },
+        {
+            "ui_field": "Message",
+            "internal_field": "log"
+        }
+    ],
+    "Thread Defense DNS": [
+        {
+            "ui_field": "Opcode",
+            "internal_field": "Opcode",
+            "required": false
+        },
+        {
+            "ui_field": "Timestamp",
+            "internal_field": "Timestamp",
+            "required": false
+        },
+        {
+            "ui_field": "Qname",
+            "internal_field": "Qname",
+            "required": false
+        },
+        {
+            "ui_field": "Qtype",
+            "internal_field": "Qtype",
+            "required": false
+        },
+        {
+            "ui_field": "Qclass",
+            "internal_field": "Qclass",
+            "required": false
+        },
+        {
+            "ui_field": "Source",
+            "internal_field": "Source",
+            "required": false
+        },
+        {
+            "ui_field": "Qip",
+            "internal_field": "Qip",
+            "required": false
+        },
+        {
+            "ui_field": "Qport",
+            "internal_field": "Qport",
+            "required": false
+        },
+        {
+            "ui_field": "Rip",
+            "internal_field": "Rip",
+            "required": false
+        },
+        {
+            "ui_field": "Rport",
+            "internal_field": "Rport",
+            "required": false
+        },
+        {
+            "ui_field": "Protocol",
+            "internal_field": "Protocol",
+            "required": false
+        },
+        {
+            "ui_field": "Delay",
+            "internal_field": "Delay",
+            "required": false
+        },
+        {
+            "ui_field": "Rcode",
+            "internal_field": "Rcode",
+            "required": false
+        },
+        {
+            "ui_field": "Type",
+            "internal_field": "Type",
+            "required": false
+        },
+        {
+            "ui_field": "Qqr",
+            "internal_field": "Qqr",
+            "required": false
+        },
+        {
+            "ui_field": "Qaa",
+            "internal_field": "Qaa",
+            "required": false
+        },
+        {
+            "ui_field": "Qtc",
+            "internal_field": "Qtc",
+            "required": false
+        },
+        {
+            "ui_field": "Qrd",
+            "internal_field": "Qrd",
+            "required": false
+        },
+        {
+            "ui_field": "Qra",
+            "internal_field": "Qra",
+            "required": false
+        },
+        {
+            "ui_field": "Qad",
+            "internal_field": "Qad",
+            "required": false
+        },
+        {
+            "ui_field": "Qcd",
+            "internal_field": "Qcd",
+            "required": false
+        },
+        {
+            "ui_field": "Qdo",
+            "internal_field": "Qdo",
+            "required": false
+        },
+        {
+            "ui_field": "Rqr",
+            "internal_field": "Rqr",
+            "required": false
+        },
+        {
+            "ui_field": "Raa",
+            "internal_field": "Raa",
+            "required": false
+        },
+        {
+            "ui_field": "Rtc",
+            "internal_field": "Rtc",
+            "required": false
+        },
+        {
+            "ui_field": "Rrd",
+            "internal_field": "Rrd",
+            "required": false
+        },
+        {
+            "ui_field": "Rra",
+            "internal_field": "Rra",
+            "required": false
+        },
+        {
+            "ui_field": "Rad",
+            "internal_field": "Rad",
+            "required": false
+        },
+        {
+            "ui_field": "Rcd",
+            "internal_field": "Rcd",
+            "required": false
+        },
+        {
+            "ui_field": "Rdo",
+            "internal_field": "Rdo",
+            "required": false
+        },
+        {
+            "ui_field": "Qrr1",
+            "internal_field": "Qrr1",
+            "required": false
+        },
+        {
+            "ui_field": "Qrr2",
+            "internal_field": "Qrr2",
+            "required": false
+        },
+        {
+            "ui_field": "Qrr3",
+            "internal_field": "Qrr3",
+            "required": false
+        },
+        {
+            "ui_field": "Rrr1",
+            "internal_field": "Rrr1",
+            "required": false
+        },
+        {
+            "ui_field": "Rrr2",
+            "internal_field": "Rrr2",
+            "required": false
+        },
+        {
+            "ui_field": "Rrr3",
+            "internal_field": "Rrr3",
+            "required": false
+        },
+        {
+            "ui_field": "View",
+            "internal_field": "View",
+            "required": false
+        },
+        {
+            "ui_field": "Anonymized",
+            "internal_field": "Anonymized",
+            "required": false
+        },
+        {
+            "ui_field": "Nanosec",
+            "internal_field": "Nanosec",
+            "required": false
+        },
+        {
+            "ui_field": "Pid",
+            "internal_field": "Pid",
+            "required": false
+        },
+        {
+            "ui_field": "Cid",
+            "internal_field": "Cid",
+            "required": false
+        },
+        {
+            "ui_field": "Tid",
+            "internal_field": "Tid",
+            "required": false
+        },
+        {
+            "ui_field": "Ancount",
+            "internal_field": "Ancount",
+            "required": false
+        },
+        {
+            "ui_field": "Nscount",
+            "internal_field": "Nscount",
+            "required": false
+        },
+        {
+            "ui_field": "Arcount",
+            "internal_field": "Arcount",
+            "required": false
+        },
+        {
+            "ui_field": "Username",
+            "internal_field": "Username",
+            "required": false
+        },
+        {
+            "ui_field": "Region",
+            "internal_field": "Region",
+            "required": false
+        },
+        {
+            "ui_field": "Cmac",
+            "internal_field": "Cmac",
+            "required": false
+        },
+        {
+            "ui_field": "Extra",
+            "internal_field": "Extra",
+            "required": false
+        },
+        {
+            "ui_field": "Version",
+            "internal_field": "Version",
+            "required": false
+        }
+    ],
+    "Threat Defense RPZ": [
+        {
+            "ui_field": "Opcode",
+            "internal_field": "Opcode",
+            "required": false
+        },
+        {
+            "ui_field": "Timestamp",
+            "internal_field": "Timestamp",
+            "required": false
+        },
+        {
+            "ui_field": "Nanosec",
+            "internal_field": "Nanosec",
+            "required": false
+        },
+        {
+            "ui_field": "Tcode",
+            "internal_field": "Tcode",
+            "required": false
+        },
+        {
+            "ui_field": "Tname",
+            "internal_field": "Tname",
+            "required": false
+        },
+        {
+            "ui_field": "Acode",
+            "internal_field": "Acode",
+            "required": false
+        },
+        {
+            "ui_field": "Arrtype",
+            "internal_field": "Arrtype",
+            "required": false
+        },
+        {
+            "ui_field": "Arrdata",
+            "internal_field": "Arrdata",
+            "required": false
+        },
+        {
+            "ui_field": "Qname",
+            "internal_field": "Qname",
+            "required": false
+        },
+        {
+            "ui_field": "Qtype",
+            "internal_field": "Qtype",
+            "required": false
+        },
+        {
+            "ui_field": "Qclass",
+            "internal_field": "Qclass",
+            "required": false
+        },
+        {
+            "ui_field": "Source",
+            "internal_field": "Source",
+            "required": false
+        },
+        {
+            "ui_field": "Qip",
+            "internal_field": "Qip",
+            "required": false
+        },
+        {
+            "ui_field": "Qport",
+            "internal_field": "Qport",
+            "required": false
+        },
+        {
+            "ui_field": "Rip",
+            "internal_field": "Rip",
+            "required": false
+        },
+        {
+            "ui_field": "Rport",
+            "internal_field": "Rport",
+            "required": false
+        },
+        {
+            "ui_field": "View",
+            "internal_field": "View",
+            "required": false
+        },
+        {
+            "ui_field": "Pvendor",
+            "internal_field": "Pvendor",
+            "required": false
+        },
+        {
+            "ui_field": "Pname",
+            "internal_field": "Pname",
+            "required": false
+        },
+        {
+            "ui_field": "Pversion",
+            "internal_field": "Pversion",
+            "required": false
+        },
+        {
+            "ui_field": "Loglevel",
+            "internal_field": "Loglevel",
+            "required": false
+        },
+        {
+            "ui_field": "Disabled",
+            "internal_field": "Disabled",
+            "required": false
+        },
+        {
+            "ui_field": "Tid",
+            "internal_field": "Tid",
+            "required": false
+        },
+        {
+            "ui_field": "Pid",
+            "internal_field": "Pid",
+            "required": false
+        },
+        {
+            "ui_field": "Cid",
+            "internal_field": "Cid",
+            "required": false
+        },
+        {
+            "ui_field": "Anonymized",
+            "internal_field": "Anonymized",
+            "required": false
+        },
+        {
+            "ui_field": "Cmac",
+            "internal_field": "Cmac",
+            "required": false
+        },
+        {
+            "ui_field": "Csite",
+            "internal_field": "Csite",
+            "required": false
+        },
+        {
+            "ui_field": "Qcat",
+            "internal_field": "Qcat",
+            "required": false
+        },
+        {
+            "ui_field": "Tinfo",
+            "internal_field": "Tinfo",
+            "required": false
+        },
+        {
+            "ui_field": "Username",
+            "internal_field": "Username",
+            "required": false
+        },
+        {
+            "ui_field": "Region",
+            "internal_field": "Region",
+            "required": false
+        },
+        {
+            "ui_field": "Extra",
+            "internal_field": "Extra",
+            "required": false
+        },
+        {
+            "ui_field": "Version",
+            "internal_field": "Version",
+            "required": false
+        }
+    ],
+    "DDI DNS": [
+        "TODO"
+    ],
+    "DDI DHCP": [
+        "TODO"
+    ]
+}
