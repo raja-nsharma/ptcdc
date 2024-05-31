@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+    <link rel="stylesheet" href="https://matcha.mizu.sh/styles/@syntax-highlighting/mod.css">
+    <title>Event Selection - BloxOne</title>
+</head>
+<body>
+    <div id="field-mapping">
+     </div>
+
+    <script>
+        function _(z) {
+            return document.getElementById(z)
+        }
+
+        async function InitApp() {
+            const data = await (await fetch("field_mapping.json")).json()
+            const body = _("field-mapping")
+            for(let logType in data) {
+                body.innerHTML += `<h3>${logType}</h3>`
+                let tbl = document.createElement('table')
+
+                let headerRow = tbl.createTHead().insertRow()
+                headerRow.insertCell().appendChild(document.createTextNode("UI Field"))
+                headerRow.insertCell().appendChild(document.createTextNode("Internal Field"))
+                headerRow.insertCell().appendChild(document.createTextNode("Required"))
+
+                let tbody = tbl.createTBody()
+                for(let field of data[logType]) {
+                    console.log(field)
+                    let row = tbody.insertRow()
+                    row.insertCell().appendChild(document.createTextNode(field["ui_field"]))
+                    row.insertCell().appendChild(document.createTextNode(field["internal_field"]))
+                    row.insertCell().appendChild(document.createTextNode(field["required"]))
+                }
+                body.appendChild(tbl)
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", InitApp)
+    </script>
+</body>
+</html>

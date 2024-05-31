@@ -6,7 +6,7 @@
             "required": false
         },
         {
-            "ui_field": "CreatedAt",
+            "ui_field": "Created At",
             "internal_field": "created_at",
             "required": false
         },
@@ -21,32 +21,32 @@
             "required": false
         },
         {
-            "ui_field": "AppId",
+            "ui_field": "Application Id",
             "internal_field": "app_id",
             "required": false
         },
         {
-            "ui_field": "ResourceId",
+            "ui_field": "Resource Id",
             "internal_field": "resource_id",
             "required": false
         },
         {
-            "ui_field": "ResourceType",
+            "ui_field": "Resource Type",
             "internal_field": "resource_type",
             "required": false
         },
         {
-            "ui_field": "UserName",
+            "ui_field": "User Name",
             "internal_field": "user_name",
             "required": false
         },
         {
-            "ui_field": "ClientIp",
+            "ui_field": "Client IP",
             "internal_field": "client_ip",
             "required": false
         },
         {
-            "ui_field": "ResourceDesc",
+            "ui_field": "Resource Description",
             "internal_field": "resource_desc",
             "required": false
         },
@@ -56,72 +56,72 @@
             "required": false
         },
         {
-            "ui_field": "UpdatedAt",
+            "ui_field": "Updated At",
             "internal_field": "updated_at",
             "required": false
         },
         {
-            "ui_field": "RequestId",
+            "ui_field": "Request Id",
             "internal_field": "request_id",
             "required": false
         },
         {
-            "ui_field": "EventVersion",
+            "ui_field": "Event Version",
             "internal_field": "event_version",
             "required": false
         },
         {
-            "ui_field": "EventMetadata",
+            "ui_field": "Event Metadata",
             "internal_field": "event_metadata",
             "required": false
         },
         {
-            "ui_field": "SubjectType",
+            "ui_field": "Subject Type",
             "internal_field": "subject_type",
             "required": false
         },
         {
-            "ui_field": "SessionType",
+            "ui_field": "Session Type",
             "internal_field": "session_type",
             "required": false
         },
         {
-            "ui_field": "SubjectGroups",
+            "ui_field": "Subject Groups",
             "internal_field": "subject_groups",
             "required": false
         },
         {
-            "ui_field": "SessionId",
+            "ui_field": "Session Id",
             "internal_field": "session_id",
             "required": false
         },
         {
-            "ui_field": "HttpURL",
+            "ui_field": "Http URL",
             "internal_field": "http_url",
             "required": false
         },
         {
-            "ui_field": "HttpMethod",
+            "ui_field": "Http Method",
             "internal_field": "http_method",
             "required": false
         },
         {
-            "ui_field": "HttpReqBody",
+            "ui_field": "Http Request Body",
             "internal_field": "http_req_body",
             "required": false
         },
         {
-            "ui_field": "HttpCode",
+            "ui_field": "Http Code",
             "internal_field": "http_code",
             "required": false
         },
         {
-            "ui_field": "HttpRespBody",
+            "ui_field": "Http Response Body",
             "internal_field": "http_resp_body",
             "required": false
         },
         {
-            "ui_field": "AccountId",
+            "ui_field": "Account Id",
             "internal_field": "account_id",
             "required": false
         }
@@ -133,7 +133,7 @@
             "required": false
         },
         {
-            "ui_field": "AccountId",
+            "ui_field": "Account Id",
             "internal_field": "account_id",
             "required": false
         },
@@ -677,9 +677,227 @@
         }
     ],
     "DDI DNS": [
-        "TODO"
+        {
+            "ui_field": "Category",
+            "internal_field": "cat",
+            "required": false
+        },
+        {
+            "ui_field": "Destination IP",
+            "internal_field": "dst",
+            "required": false
+        },
+        {
+            "ui_field": "Source IP",
+            "internal_field": "src",
+            "required": false
+        },
+        {
+            "ui_field": "Source Port",
+            "internal_field": "srcPort",
+            "required": false
+        },
+        {
+            "ui_field": "Protocol",
+            "internal_field": "proto",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox DNS View",
+            "internal_field": "InfobloxDNSView",
+            "required": false
+        },
+        {
+            "ui_field": "URL",
+            "internal_field": "url",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox DNS QClass",
+            "internal_field": "InfobloxDNSQClass",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox DNS QType",
+            "internal_field": "InfobloxDNSQType",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox DNS QFlags",
+            "internal_field": "InfobloxDNSQFlags",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox AnCount",
+            "internal_field": "InfobloxAnCount",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox NsCount",
+            "internal_field": "InfobloxNsCount",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox ArCount",
+            "internal_field": "InfobloxArCount",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 Region",
+            "internal_field": "InfobloxB1Region",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 Connection Type",
+            "internal_field": "InfobloxB1ConnectionType",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 OPH Name",
+            "internal_field": "InfobloxB1OPHName",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 OPHIP Address",
+            "internal_field": "InfobloxB1OPHIPAddress",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 Network",
+            "internal_field": "InfobloxB1Network",
+            "required": false
+        },
+        {
+            "ui_field": "User Name",
+            "internal_field": "usrName",
+            "required": false
+        },
+        {
+            "ui_field": "Ident Host Name",
+            "internal_field": "identHostName",
+            "required": false
+        },
+        {
+            "ui_field": "Source MAC Address",
+            "internal_field": "srcMAC",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 Source OS Version",
+            "internal_field": "InfobloxB1SrcOSVersion",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 DHCP Fingerprint",
+            "internal_field": "InfobloxB1DHCPFingerprint",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox B1 DNS Tags",
+            "internal_field": "InfobloxB1DNSTags",
+            "required": false
+        }
     ],
     "DDI DHCP": [
-        "TODO"
+        {
+            "ui_field": "Category",
+            "internal_field": "cat",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Host",
+            "internal_field": "InfobloxHost",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Host ID",
+            "internal_field": "InfobloxHostID",
+            "required": false
+        },
+        {
+            "ui_field": "Destination IP",
+            "internal_field": "dst",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox IP Space",
+            "internal_field": "InfobloxIPSpace",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Subnet",
+            "internal_field": "InfobloxSubnet",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Range Start",
+            "internal_field": "InfobloxRangeStart",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Range End",
+            "internal_field": "InfobloxRangeEnd",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Lease Operation",
+            "internal_field": "InfobloxLeaseOp",
+            "required": false
+        },
+        {
+            "ui_field": "Source IP",
+            "internal_field": "src",
+            "required": false
+        },
+        {
+            "ui_field": "Ident Source IP",
+            "internal_field": "identSrc",
+            "required": false
+        },
+        {
+            "ui_field": "Source MAC Address",
+            "internal_field": "srcMAC",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Client ID",
+            "internal_field": "InfobloxClientID",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox DUID",
+            "internal_field": "InfobloxDUID",
+            "required": false
+        },
+        {
+            "ui_field": "Ident Host Name",
+            "internal_field": "identHostName",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Lifetime",
+            "internal_field": "InfobloxLifetime",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Lease UUID",
+            "internal_field": "InfobloxLeaseUUID",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Fingerprint Pr",
+            "internal_field": "InfobloxFingerprintPr",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox Fingerprint",
+            "internal_field": "InfobloxFingerprint",
+            "required": false
+        },
+        {
+            "ui_field": "Infoblox DHCP Options",
+            "internal_field": "InfobloxDHCPOptions",
+            "required": false
+        }
     ]
 }
